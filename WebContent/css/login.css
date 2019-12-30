@@ -1,0 +1,183 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font1/iconfont.eot');
+    src: url('../font1/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font1/iconfont.woff2') format('woff2'),
+        url('../font1/iconfont.woff') format('woff'),
+        url('../font1/iconfont.ttf') format('truetype'),
+        url('../font1/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.login{
+    position: absolute;
+    background:#ddd;
+    width:100%;
+    height:100%;
+}
+.login .nav{
+    height:10%;
+    background:rgba(255, 255, 255, 0.5) url('../images/shop.png') no-repeat scroll; 
+    background-size:80px;
+    background-position: 0px -2px;
+    padding-left:90px;
+    color:#2024c8;
+    font-size:30px;
+    font-weight: bolder;
+    text-shadow: 1px 3px 1px black;
+    position: relative;
+}
+.login .nav span{
+    display: block;
+    height:50px;
+    position: absolute;
+    line-height: 50px;
+    margin-top:-30px;
+    top:38px;
+    width:1372px;
+}
+.login .nav span:nth-child(2){
+    width:292px;
+    margin-left:-146px;
+    color:red;
+    left:50%;
+}
+.inp{
+    width:700px;
+    height:620px;
+    position: absolute;
+    margin-left:-350px;
+    margin-top:-310px;
+    left:50%; 
+    top:50%;
+    background:rgba(255, 255, 255, 0.5);
+    border:2px solid rgba(255, 0, 0, 0.8); 
+    border-radius: 5px;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+.inp .leb{
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+.inp .leb ul{
+    list-style: none;
+}
+.leb ul li {
+    margin:30px 0px;
+}
+.leb ul li label{
+    display: block;
+    width:90px;
+    height:34px;
+    line-height: 34px;
+    text-align: justify;
+}
+
+.leb ul li label::after{
+    height: 0;
+    width:100%;
+    content: "";
+    display: inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+} 
+.leb ul li label[for='qq']{
+    padding-top:3px;
+}
+.login-p{
+    position: relative;
+    width:100%;
+    height: 90%;
+    min-height: 650px;
+    background:url('../images/timg.jpg') no-repeat;
+    background-size:100% 100%;
+}
+.btn ul li{
+    list-style: none;
+    margin:30px 0px;
+    
+}
+.btn{
+    
+    position: absolute;
+    top:30px;
+    left:185px;
+    padding:2px 0px;
+}
+.btn .show,.show1{
+    width:20px;
+    height:26px;
+    border:2px solid rgba(192, 190,190, 1);
+    position: absolute;
+    left:172px;
+    padding-left:3px;
+    padding-right:3px;
+    cursor: pointer;
+    background:#ddd;
+    color:blue;
+    line-height: 26px;
+    font-size:20px;
+    text-align: center;
+}
+.btn .show{
+    display: none;
+    top:98px;
+}
+.btn .show1{
+    display:none;
+    top:162px;
+}
+#username ,#pword,#pword1,#phone,#emild,#ress,#qq,.se{
+    width:200px;
+    height:30px;
+    line-height: 30px;
+   
+
+}
+#username ,#pword,#pword1,#phone,#emild,#ress,#qq{
+    border:2px solid #aeaeae;
+}
+#ress,#qq,.se{
+    margin-top:2px;
+}
+.se{
+    padding-top:2px;
+}
+
+.lo{
+    position: absolute;
+    width:300px;
+    height:30px;
+    bottom:20px;
+    left:82px;
+}
+.lo input{
+    width:300px;
+    height:30px;
+    box-sizing: border-box;
+    letter-spacing: 2em;
+    border:2px solid blue;
+    background:rgba(255, 255, 255, 0.8);
+    color:blue;
+    font-size:20px;
+    font-weight: bolder;
+    padding-left:25px;
+    cursor: pointer;
+    transition:background-color 0.5s;
+}
+.lo input:hover{
+    background-color:  #ff00ff;
+}

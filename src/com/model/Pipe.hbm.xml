@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-7-18 21:36:42 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Pipe" table="管理员">
+        <id name="name" type="java.lang.String">
+            <column name="用户名" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="java.lang.String">
+            <column name="密码" />
+        </property>
+        <property name="bool" type="java.lang.String">
+            <column name="标志" />
+        </property>
+         <property name="phone" type="java.lang.String">
+            <column name="号码" />
+        </property>
+         <property name="emild" type="java.lang.String">
+            <column name="邮箱" />
+        </property>
+         <property name="sex" type="java.lang.String">
+            <column name="性别" />
+        </property>
+    </class>
+</hibernate-mapping>

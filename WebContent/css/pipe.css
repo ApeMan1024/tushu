@@ -1,0 +1,215 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.right-2,.right-3{
+    display: none;
+}
+.nei {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8) url("../images/timg1.jpg") no-repeat;
+    background-size:100% 100%;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+.right {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    background:url("../images/beijing1.jpg") no-repeat;
+    background-size:100% 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.left .tao {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 2px solid #ddd;
+}
+
+.left .tao .tao-left {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #000 url("../images/users.png") no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+
+.left .tao .tao-right {
+    float: left;
+    font-size: 16px;
+    padding-left:5px;
+    
+}
+.left .tao .tao-right ul{
+    list-style: none;
+}
+.left .tao .tao-right ul li{
+    padding:1px 0;
+}
+.left .tao .tao-right ul li span:nth-child(1){
+    font-weight: bold;
+}
+.left .heard{
+    font-size:16px;
+}
+.left .heard ul{
+    list-style: none;
+}
+.left .heard ul li{
+    padding:10px 0;
+    padding-left:40px;
+    margin:2px 0;
+    background:rgba(205, 217, 255, 0.5) url("../images/xuan.ico") no-repeat left;
+    background-size:30px 20px;
+    cursor: pointer;
+
+}
+.left .heard ul li a{
+    text-decoration: none;
+    color:black;
+}
+.left .heard ul li a:hover{
+    color:red;
+}
+.left .heard ul li:hover{
+    color:red;
+}
+.right-1 .shou,.right-2 .shou,.right-3 .shou{
+    height:100px;
+    background:url("../images/bei1.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.right-2 .shou{
+    height:220px;
+}
+.right-1 .shou form{
+    font-size:0px;
+   width:600px;
+   height:50px;
+   position: relative;
+   margin-left:-210px;
+   left:50%;
+   margin-top:-25px;
+   top:50%;
+}
+.right-1 .shou form #book{
+    font-size:16px;
+    width:300px;
+    height:24px;
+    line-height: 24px;
+    border:1px solid #ddd;
+}
+.right-1 .shou form #sub1{
+    font-size:16px;
+    display: inline-block;
+    width:60px;
+    height:24px;
+    line-height: 24px;
+    background:#ddd;
+    border:1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right-1 .shou-1,.right-2 .shou-1,.right-3 .shou-1{
+    position: absolute;
+    height:90%;
+    width:100%;
+    overflow: auto;
+}
+.right-3 .shou-1{
+    height:86%;
+}
+.right-2 .shou-1{
+    height:70%;
+}
+
+.right-1 .shou-1 table,.right-2 .shou-1 table,.right-3 .shou-1 table{
+    width:100%;
+    text-align: center;
+    margin-top:3px;
+}
+.right-3 .shou-1 table tbody tr td:nth-child(9) input{
+    background:rgb(51, 133, 255);
+    width:50px;
+    height:20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.right-2 .shou .left1 input,.right-2 .shou .right1 input{
+    border:1px solid #ddd;
+    width:200px;
+    height:30px;
+    line-height: 30px;
+    margin-top:8px;
+}
+.right-2 .shou .left1,.right-2 .shou .right1{
+   float: left;
+   
+}
+.right-2 .shou .left1{
+    margin-right:20px;
+}
+.right-2 .shou form{
+   position: relative;
+   left:20%;
+   width:50%;
+}
+.right-2 .shou::after{
+    content: "";
+    width:100%;
+    height:0;
+    display: block;
+
+}
+.right-2 .shou form .su1{
+    clear: both;
+    width:210px;
+    position: relative;
+    top:10px;
+    left:200px;
+}
+.right-2 .shou form .su1 input,.right-3 .shou form .sub-3 input{
+    width:200px;
+    height:24px;
+    background:rgb(51, 133, 255);
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.right-3 .shou form .sub-3{
+    width:210px;
+    position: relative;
+    top:10px;
+    left:500px;
+}
+.right-3 .shou form{
+    margin-left:50px;
+    position: relative;
+    margin-top:-12px;
+    top:30%;
+}
+.right-3 .shou form input{
+    border:1px solid #ddd;
+    width:200px;
+    height:24px;
+    line-height: 24px;
+}

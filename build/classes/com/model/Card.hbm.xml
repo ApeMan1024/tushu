@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-7-18 21:36:03 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Card" table="借书证">
+        <id name="number" type="java.lang.String">
+            <column name="借书证号" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="姓名" />
+        </property>
+        <property name="dpt" type="java.lang.String">
+            <column name="系别" />
+        </property>
+        <property name="career" type="java.lang.String">
+            <column name="专业" />
+        </property>
+        <property name="amount" type="int">
+            <column name="允许借阅量" />
+        </property>
+        <property name="total" type="int">
+            <column name="总分" />
+        </property>
+        <property name="owe" type="int">
+            <column name="欠分" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="号码" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="性别" />
+        </property>
+    </class>
+</hibernate-mapping>

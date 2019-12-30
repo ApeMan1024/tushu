@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理员页面</title>
+    <link rel="stylesheet" href="../css/pipe.css">
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../jQuery/cookie.js"></script>
+    <script src="../js/pipe.js"></script>
+     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="nei">
+        <div class="left">
+            <div class="tao">
+                <div class="tao-left"></div>
+                <div class="tao-right">
+                    <ul>
+                        <li><span>用户名:</span><span class="name1">张山</span></li>
+                        <li><span>职&nbsp;&nbsp;&nbsp;&nbsp;业:</span><span class="opa">普通管理员</span></li>
+                        <li><span>电&nbsp;&nbsp;&nbsp;&nbsp;话:</span><span class="phona">110</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="heard">
+                <ul>
+                    <li>办理借书证</li>
+                    <li><a href="../jsp/login.html">管理员注册</a></li>
+                    <li>图书入库</li>
+                    <li>图书出库</li>
+                    <li>查询学生信息</li>
+                    <li>退出</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-1">
+                <div class="shou">
+                    <form action="javascript:;" method="post">
+                        <input type="text" name="book" id="book">
+                        <input type="submit" id="sub1" value="查询">
+                    </form>
+                </div>
+                <div class="shou-1">
+                    <table border="1" cellspacing="0" id="Tab">
+                        <thead>
+                            <tr>
+                                <td>姓名</td>
+                                <td>系别</td>
+                                <td>号码</td>
+                                <td>性别</td>
+                                <td>允许借阅量</td>
+                                <td>借书证号</td>
+                                <td>总分</td>
+                                <td>欠分</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+            <div class="right-2">
+                <div class="shou">
+                    <form action="javascript:;" method="post">
+                        <div class="left1">
+                            <label for="booknumber">图&nbsp;书&nbsp;编&nbsp;&nbsp;号:</label>
+                            <input type="text" name="booknumber" id="booknumber">
+                            <br>
+                            <label for="bookname">图&nbsp;书&nbsp;名&nbsp;&nbsp;称:</label>
+                            <input type="text" name="bookname" id="bookname">
+                            <br>
+                            <label
+                                for="zuo">作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;者:</label>
+                            <input type="text" name="zuo" id="zuo">
+                            <br>
+                            <label for="chu">出&nbsp;版&nbsp;日&nbsp;&nbsp;期:</label>
+                            <input type="text" name="chu" id="chu">
+                        </div>
+                        <div class="right1">
+                            <label for="ban">图书出版社:</label>
+                            <input type="text" name="ban" id="ban">
+                            <br>
+                            <label for="hao">书&nbsp;&nbsp;&nbsp;&nbsp;架&nbsp;&nbsp;&nbsp;&nbsp;号:</label>
+                            <input type="text" name="hao" id="hao">
+                            <br>
+                            <label
+                                for="liang">数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量:</label>
+                            <input type="text" name="liang" id="liang">
+                        </div>
+                        <div class="su1">
+                            <input type="submit" value="入库">
+                        </div>
+                    </form>
+                </div>
+                <div class="shou-1">
+                    <table border="1" cellspacing="0" id="Tab1">
+                        <thead>
+                            <tr>
+                                <td>图书编号</td>
+                                <td>图书名称</td>
+                                <td>作者</td>
+                                <td>出版日期</td>
+                                <td>图书出版社</td>
+                                <td>书架号</td>
+                                <td>数量</td>
+                                <td>图书总数量</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="right-3">
+                <div class="shou">
+                    <form action="javascript:;" method="post">
+                        <label for="bookname1">图书名称:</label>
+                        <input type="text" name="bookname1" id="bookname1">&nbsp;&nbsp;
+                        <label for="booknumber1">图书编号:</label>
+                        <input type="text" name="booknumber1" id="booknumber1">&nbsp;&nbsp;
+                        <label for="shuliang">出库数量:</label>
+                        <input type="text" name="shuliang" id="shuliang">&nbsp;&nbsp;
+                        <label for="shujia">书架号:</label>
+                        <input type="text" name="shujia" id="shujia">&nbsp;&nbsp;
+                        <div class="sub-3">
+                            <input type="submit" value="出库">
+                        </div>
+                    </form>
+                </div>
+                <div class="shou-1">
+                    <table border="1" cellspacing="0" id="Tab2">
+                        <thead>
+                            <tr>
+                                <td>图书编号</td>
+                                <td>图书名称</td>
+                                <td>作者</td>
+                                <td>出版日期</td>
+                                <td>图书出版社</td>
+                                <td>书架号</td>
+                                <td>数量</td>
+                                <td>图书总数量</td>
+                                <td>操作</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

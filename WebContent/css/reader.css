@@ -1,0 +1,282 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    width: 100%;
+    height: 120px;
+    background: url("../images/tushu1.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+    line-height: 120px;
+}
+
+.nav .nav-1 {
+    font-size: 100px;
+    font-family: 华文行楷;
+    color: #2F5597;
+    display: inline-block;
+}
+
+.heard {
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.heard .left {
+    font-size: 16px;
+    float: left;
+    width: 14%;
+    height: 100%;
+    background: red url("../images/tushu2.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+
+.heard .left .cai {
+    height: 22px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(100, 120, 120, 1);
+    line-height: 22px;
+    background: rgba(255, 255, 255, 0.5) url("../images/tushu3.png") no-repeat left;
+    background-size: 20px 20px;
+    font-weight: bold;
+    padding-left: 24px;
+}
+
+.heard .right {
+    position: relative;
+    font-size: 16px;
+    float: left;
+    width: 86%;
+    height: 100%;
+    box-sizing: border-box;
+    background: url("../images/tushu6.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.cen {
+    position: relative;
+    height: 70%;
+    top: 100px;
+}
+
+.cen .cha, .cen .gui {
+    border: 2px solid #ddd;
+    width: 120px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: -70px;
+    left: 50%;
+    cursor: pointer;
+}
+
+.cen .gui {
+    margin-top: 40px;
+}
+
+.cen .cha .cha-tu, .cen .gui .gui-tu {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    background: rgba(105, 127, 168, 0.4) url("../images/tushu4.png") no-repeat scroll;
+    background-size: 100% 100%;
+    border-bottom: 2px solid #ddd;
+}
+
+.cen .gui .gui-tu {
+    background: rgba(105, 127, 168, 0.4) url("../images/tushu5.png") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.cen .cha p, .cen .gui p {
+    font-size: 20px;
+    font-family: 华文行楷;
+    color: #2f5597;
+}
+
+.right-1 .heard1,.right-2 .heard1  {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.right-1 .heard1 form,.right-2 .heard1 form {
+    position: relative;
+    margin: 0 auto;
+    width: 40%;
+    top: 15px;
+}
+
+.right-1 .heard1 form #te1 {
+    width: 300px;
+    height: 26px;
+    border: none;
+    line-height: 26px;
+    float: left;
+}
+
+.right-1 .heard1 form input[type='submit'] {
+    border: none;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    background: rgb(51, 133, 255);
+    letter-spacing: 1em;
+    box-sizing: border-box;
+    padding-left: 10px;
+    cursor: pointer;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+}
+
+.right-1 .heard2,.right-2 .heard2 {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    overflow: auto;
+}
+
+/* .right-1 .heard2 #Tab1{
+    display: none;
+} */
+
+.right-1 .heard2 table,.right-2 .heard2 table {
+    margin-top: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.right-1 .heard2 ul {
+    list-style: none;
+    width: 100%;
+    margin-top: 2px;
+    display: none;
+}
+
+.right-1 .heard2 ul li {
+    border: 1px solid #ddd;
+    height: 100px;
+    overflow: hidden;
+}
+
+.right-1 .heard2 ul li:nth-child(1) .li-left {
+    background: url("../images/tushu-1.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li:nth-child(2) .li-left {
+    background: url("../images/tushu-2.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li:nth-child(3) .li-left {
+    background: url("../images/tushu-3.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li:nth-child(4) .li-left {
+    background: url("../images/tushu-4.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li:nth-child(5) .li-left {
+    background: url("../images/tushu-5.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li:nth-child(6) .li-left {
+    background: url("../images/tushu-1.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+}
+
+.right-1 .heard2 ul li .li-left {
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right-1 .heard2 ul li .li-right {
+    float: left;
+    margin-left: 2px;
+    background: rgba(0, 0, 0, 0.1);
+    width: 92%;
+    height: 100px;
+    padding-left: 2px;
+}
+
+.right-1 .heard2 ul li .li-right p {
+    padding: 8px 0;
+}
+
+.right-1 .heard2 ul li .li-right p:nth-child(3) {
+    padding: 0;
+    float: right;
+    margin-right: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-1,.right-2{
+    display: none;
+}
+
+
+
+
+.right-2 .heard2 table {
+    width: 100%;
+    text-align: center;
+}
+
+.right-2 .heard2 table .btn {
+    background: rgb(51, 133, 255);
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.right-2 .heard2{
+    height:88%;
+    top:12%;
+}
+.right-2 .heard1{
+    height:12%;
+}
+.right-2 .heard1 form {
+    top:6px;
+    width:60%;
+    text-align: center;
+}
+.right-2 .heard1 form p:nth-child(1){
+    padding:5px 0;
+    
+}
+.right-2 .heard1 form p:nth-child(2){
+    padding-top:5px;
+}
+.right-2 .heard1 form p:nth-child(1) input{
+    width:200px;
+    height:24px;
+    border:none;
+    
+}
+.right-2 .heard1 form p:nth-child(2) input{
+    width:200px;
+    height:24px;
+    border:none;
+    background:rgb(51, 133, 255);
+    letter-spacing: 2em;
+    padding-left:26px;
+    cursor: pointer;
+    color:#fff;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-7-18 21:36:34 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Load" table="借阅">
+    <composite-id>
+    	<key-property name="card" type="java.lang.String">
+    		<column name="借书证号" />
+    	</key-property>
+    	<key-property name="booknumber" type="java.lang.String">
+    		<column name="图书编号" />
+    	</key-property>
+    </composite-id>
+        <property name="bookname" type="java.lang.String">
+            <column name="图书名称" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="姓名" />
+        </property>
+        <property name="date" type="java.lang.String">
+            <column name="时间" />
+        </property>
+    </class>
+</hibernate-mapping>

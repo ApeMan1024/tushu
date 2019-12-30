@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.kai{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background:#DDDDDD;
+}
+.nav{
+    height:53px;
+    color:#2024c8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
+    position: relative;
+    padding-left:100px;
+    background:rgba(255, 255, 255, 0.8) url(../images/users.png) no-repeat scroll left;
+    background-size: 100px 50px ;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.nav span{
+    display: block;
+    height:50px;
+    position: relative;
+    line-height: 50px;
+}
+.shen{
+    position: relative;
+    height:93%;
+    background:url("../images/bj.jpg") no-repeat scroll;
+    background-size:100% 100%;
+}
+.aplicant{
+    width:600px;
+    height:500px;
+    border:2px solid #DDDDDD;
+    background:rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top:-250px;
+    top:50%;
+    margin-left:-250px;
+    left:50%;
+    border-radius: 5px;
+    box-shadow: 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.aplicant .aplicant-p{
+    position: absolute;
+    width:450px;
+    height:400px;
+ 
+    margin-top:-200px;
+    top:250px;
+    margin-left:-200px;
+    left:250px;
+}
+.leb label{
+    display: block;
+    width:100px;
+    margin:20px;
+    height:24px;
+    padding:10px 0px;
+}
+.leb label:nth-child(1){
+    text-align: justify;
+}
+.leb label:nth-child(1)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+.leb label:nth-child(2)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+
+.leb label:nth-child(2){
+    text-align: justify;
+}
+.leb label:nth-child(3)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+
+.leb label:nth-child(3){
+    text-align: justify;
+}
+.leb label:nth-child(4)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+
+.leb label:nth-child(4){
+    text-align: justify;
+}
+.leb label:nth-child(5)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+
+.leb label:nth-child(5){
+    text-align: justify;
+}
+.leb label:nth-child(6)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+
+.leb label:nth-child(6){
+    text-align: justify;
+}
+.text input{
+    display: block;
+    margin:20px 40px;
+    padding:10px 0px;
+    height:20px;
+    padding-left:40px;
+    border:2px solid #DDDDDD;
+    width:200px;
+    line-height: 20px;
+    
+}
+.text input:nth-child(3){
+    width:160px;
+    padding-right: 40px;
+}
+#username{
+    background:rgba(255,255,255,1);
+}
+.leb,.text,.lab{
+    display: inline;
+}
+.leb{
+    width:100px;  
+    position: absolute;
+    height:150px;
+    margin-top:-75px;
+    top:60px;
+}
+.text{
+    
+    height:150px;
+    position: absolute;
+    margin-top:-75px;
+    top:60px;
+    left:100px;
+}
+.lab{
+    width:100px;  
+    position: absolute;
+    height:150px;
+    margin-top:-75px;
+    top:60px;
+}
+.lab label{
+    display: block;
+    width:10px;
+    margin:20px;
+    height:24px;
+    margin-left:400px;
+    padding:10px 10px;
+    text-align: right;
+}
+.aplicant .record{
+    border:1px solid red;
+    position: absolute;
+    width:250px;
+    top:390px;
+    height:30px;
+    margin-left:-125px;
+    left:50%;
+}
+.aplicant .record input{
+    width:250px;
+    height:30px;
+    box-sizing: border-box;
+    letter-spacing: 2em;
+    text-align: center;
+    font-weight: bolder;
+    background:rgba(255, 255, 255, 0.8);
+    border:2px solid #DDDDDD;
+    cursor: pointer;
+}
+
+

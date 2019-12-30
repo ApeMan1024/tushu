@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../js/login.js"></script>
+     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="login">
+        <div class="nav">
+            <span class="nav-p">用户注册</span>
+        </div>
+        <div class="login-p">
+            <div class="text">
+                <form action="javascript:;" method="post">
+                    <div class="inp"> 
+                        <div class="leb">
+                            <ul>
+                                <li><label for="username">用 户 名 :</label></li>
+                                <li><label for="pword">密 码 :</label></li>
+                                <li><label for="pword1">确 认 密 码 :</label></li>
+                                <li><label for="phone">手 机 号 码 :</label></li>
+                                <li><label for="emild">邮 箱 :</label></li>
+                                <li><label for="sex">性 别 :</label></li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <ul>
+                                <li><input type="text" name="username" id="username" autocomplete="off" required/><label for="username">*字母、数字、下划线，5-20位</label></li>
+                                <li><input type="password" name="pword" id="pword" autocomplete="off" required/><span class="show iconfont" title="显示">&#xe624;</span><label for="pword">*字母、数字8-20位</label></li>
+                                <li><input type="password" name="pword1" id="pword1" autocomplete="off" required/><span class="show1 iconfont" title="显示">&#xe624;</span></li>
+                                <li><input type="text" name="phone" id="phone" autocomplete="off" required/></li>
+                                <li><input type="email" name="emild" id="emild" autocomplete="off"/></li>
+                                <li><div class="se">
+                                        <input type="radio" name="sex" id="sex" value="男">
+                                        <label for="sex">男</label>
+                                        <input type="radio" name="sex" id="sex1" value="女">
+                                        <label for="sex1">女</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lo">
+                            <input type="submit" value="注册"/>
+                        </div>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

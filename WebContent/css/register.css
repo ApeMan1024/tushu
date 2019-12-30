@@ -1,0 +1,174 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.kai{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background:#DDDDDD;
+}
+.nav{
+    height:53px;
+    color:#2024c8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
+    position: relative;
+    padding-left:100px;
+    background:rgba(255, 255, 255, 0.8) url("../images/users.png") no-repeat scroll left;
+    background-size: 100px 50px ;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.nav span{
+    display: block;
+    height:50px;
+    position: relative;
+    line-height: 50px;
+}
+.cen{
+    position: relative;
+    height:93%;
+    background:url("../images/time.jpg") no-repeat scroll;
+    background-size:100% 100%;
+}
+.register{
+    width:500px;
+    height:500px;
+    border:2px solid #DDDDDD;
+    background:rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top:-250px;
+    top:50%;
+    margin-left:-250px;
+    left:50%;
+    border-radius: 5px;
+    box-shadow: 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.register .register-p{
+    position: absolute;
+    width:400px;
+    height:400px;
+ 
+    margin-top:-200px;
+    top:250px;
+    margin-left:-200px;
+    left:250px;
+}
+.leb label{
+    display: block;
+    width:65px;
+    margin:20px;
+    height:24px;
+    padding:10px 0px;
+    text-align: center;
+}
+.leb label:nth-child(2)::after{
+    content: "";
+    width:100%;
+    height:0;
+    display:inline-block;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+    line-height: 0px;
+}
+.leb label:nth-child(2){
+    text-align: justify;
+}
+.text input{
+    display: block;
+    margin:20px;
+    padding:10px 0px;
+    height:20px;
+    padding-left:40px;
+    border:2px solid #DDDDDD;
+    width:200px;
+    line-height: 20px;
+    
+}
+.text input:nth-child(3){
+    width:160px;
+    padding-right: 40px;
+}
+#username{
+    background:rgba(255,255,255,1) url("../images/user_1.png") no-repeat scroll;
+    background-size: 35px;
+}
+#pword{
+    background:rgba(255,255,255,1) url("../images/password.png") no-repeat scroll;
+    background-size: 35px;
+    background-position: 0 3px;
+}
+.leb,.text{
+    display: inline-block;
+}
+.leb{
+    width:100px;
+    
+    position: absolute;
+    height:150px;
+    margin-top:-75px;
+    top:120px;
+}
+.text{
+    
+    height:150px;
+    position: absolute;
+    margin-top:-75px;
+    top:120px;
+    left:100px;
+}
+.register .forget{
+    width:120px;
+    position: absolute;
+    right:2px;
+    top:245px;
+}
+.register .forget a{
+    display: inline-block;
+}
+.register .forget a:hover{
+    color:red;
+}
+.register .record{
+    border:1px solid red;
+    position: absolute;
+    width:250px;
+    top:280px;
+    height:30px;
+    margin-left:-125px;
+    left:50%;
+}
+.register .record input{
+    width:250px;
+    height:30px;
+    box-sizing: border-box;
+    letter-spacing: 2em;
+    text-align: center;
+    font-weight: bolder;
+    background:rgba(255, 255, 255, 0.8);
+    border:2px solid #DDDDDD;
+    cursor: pointer;
+}
+#ve-code{
+    width:75px;
+    height:30px;
+    background:#2024c8;
+    position: absolute;
+    top:155px;
+    right:25px;
+    color:red;
+    line-height: 30px;
+    text-align: center;
+    padding-left:5px;
+    border:1px solid #DDDDDD;
+    letter-spacing: 5px;
+    cursor:pointer;
+    font-weight: bolder;
+    box-shadow: 0px 1px 0px black; 
+}
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-7-18 21:36:22 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Librarian" table="图书馆">
+        <id name="bookshelf" type="int">
+            <column name="书架号" />
+            <generator class="assigned" />
+        </id>
+        <property name="tower" type="int">
+            <column name="楼层号" />
+        </property>
+        <property name="total" type="int">
+            <column name="图书总量" />
+        </property>
+    </class>
+</hibernate-mapping>

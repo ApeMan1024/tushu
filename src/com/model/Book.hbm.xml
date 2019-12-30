@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-7-18 21:35:43 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Book" table="图书信息">
+        <id name="booknumber" type="java.lang.String">
+            <column name="图书编号" />
+            <generator class="assigned" />
+        </id>
+        <property name="bookname" type="java.lang.String">
+            <column name="图书名称" />
+        </property>
+        <property name="author" type="java.lang.String">
+            <column name="作者" />
+        </property>
+        <property name="data" type="java.lang.String">
+            <column name="出版日期" />
+        </property>
+        <property name="appear" type="java.lang.String">
+            <column name="图书出版社" />
+        </property>
+        <property name="bookshelf" type="int">
+            <column name="书架号" />
+        </property>
+        <property name="amount" type="int">
+            <column name="数量" />
+        </property>
+        <property name="total" type="int">
+            <column name="图书总数量" />
+        </property>
+    </class>
+</hibernate-mapping>
